@@ -1,0 +1,11 @@
+.env
+node_modules/
+state/
+transcripts/
+__pycache__/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+build/
+.hvigor/
+.idea/

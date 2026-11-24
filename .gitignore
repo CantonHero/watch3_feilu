@@ -1,0 +1,37 @@
+.work/
+*.local.env
+server/.env
+server/node_modules/
+server/state/
+server/transcripts/
+watch-app/local.properties
+watch-app/build-profile.json5
+watch-app/.gradle/
+watch-app/entry/build/
+*.p7b
+*.p12
+
+# Local deployment records and launchers
+/飞录部署与验收.md
+/启动飞录服务.ps1
+
+# Credentials, signing material and generated packages
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.jks
+*.keystore
+*.cer
+*.crt
+*.hap
+*.app
+*.apk
+*.log
+*.sqlite*
+node_modules/
+build/
+.idea/
+.DS_Store

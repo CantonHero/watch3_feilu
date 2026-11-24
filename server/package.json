@@ -1,0 +1,9 @@
+{
+  "name": "watch3_feilu",
+  "version": "0.3.15",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "opencc-js": "1.4.2"
+  }
+}

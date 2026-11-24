@@ -1,0 +1,10 @@
+<div class="screen">
+  <text class="title">{{ recording ? '录音中' : '手表录音' }}</text>
+  <text class="elapsed">{{ elapsed }}</text>
+  <input if="{{ recording }}" class="control stop" type="button" value="停止" onclick="stopRecording" />
+  <input elif="{{ !busy }}" class="control start" type="button" value="开始录音" onclick="startRecording" />
+  <text if="{{ busy }}" class="status">请稍候</text>
+  <text if="{{ info && !recording }}" class="status">{{ info }}</text>
+  <text if="{{ delivery }}" class="status">{{ delivery }}</text>
+  <input if="{{ canRetry && !recording && !busy }}" class="retry" type="button" value="重试" onclick="retryPending" />
+</div>

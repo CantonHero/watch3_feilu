@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "飞录"
+    },
+    {
+      "name": "watch_mic_reason",
+      "value": "用于录制您在手表上发起的语音。"
+    },
+    {
+      "name": "watch_app_name",
+      "value": "飞录"
+    }
+  ]
+}
